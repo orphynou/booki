@@ -58,6 +58,27 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Hearder ***********/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    margin-left: 68px;
+    padding: 5px;
+}
+
+header a:hover {
+    color: blue;
+    border-top: 2px #0065FC solid;
+}
+
+header img {
+    height: 19px;
+    margin: 30px 0px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
