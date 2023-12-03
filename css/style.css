@@ -70,13 +70,84 @@ header a {
 }
 
 header a:hover {
-    color: blue;
+    color: #0065FC;
     border-top: 2px #0065FC solid;
 }
 
 header img {
     height: 19px;
     margin: 30px 0px;
+}
+
+/****** Info Group ***********/
+h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-group p {
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    height: 49px;
+    margin: 30px 0px;
+}
+
+.fa-location-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    width: 50px;
+    height: 49px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+input[type='text'] {
+    border: none;
+    opacity: 1;
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+
+input[type='submit'] {
+    border: none;
+    background: #0065FC;
+    color: white;
+    font-weight: 900;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 18px;
+    width: 132px;
+}
+
+.fa-magnifying-glass {
+    display: flex;
+    border: none;
+    background: #0065FC;
+    color: white;
+    font-weight: 900;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 49px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    display: none;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -185,4 +256,12 @@ header img {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    input[type='submit'] {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: flex;
+    }
+
 }
