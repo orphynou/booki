@@ -1,0 +1,35 @@
+/****** Activites ***********/
+.activites {
+    margin: 35px 0px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.activites-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    width: 297.5px;
+    height: 439px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.activites-cards img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 380px;
+    margin: 0px;
+}
+
+.activites-cards .card-txt {
+    padding-left: 15px;
+}
