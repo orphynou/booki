@@ -79,7 +79,7 @@ header img {
     margin: 30px 0px;
 }
 
-/****** Info Group ***********/
+/****** Info Group - Head and search ***********/
 h1 {
     font-size: 22px;
     margin: 0;
@@ -148,6 +148,39 @@ input[type='submit'] {
     justify-content: center;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
     display: none;
+}
+
+/****** Info Group - Filter and info ***********/
+
+.filter-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.filter-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+
+.filter-menu li {
+    border: #F2F2F2 solid;
+    border-radius: 45px;
+    padding: 10px;
+}
+
+.filter-menu li:hover {
+    background-color: #DEEBFF;
+}
+
+.fa-info {
+    border: #F2F2F2 1px solid;
+    border-radius: 50%;
+    padding: 5px 10px;
 }
 
 /****** Hebergements And Populaires ***********/
