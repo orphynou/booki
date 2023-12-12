@@ -24,7 +24,7 @@
         align-items: center;
         justify-content: space-around;
         align-content: center;
-        width: -webkit-fill-available;
+        width: 100%;
     }
 
     header a {
