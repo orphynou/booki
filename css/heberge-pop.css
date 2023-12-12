@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .hebergements-and-populaires section {
@@ -71,7 +73,6 @@
 
 .display-more {
     font-weight: 700;
-    font-size: 18px;
     margin-top: 33px;
 }
 

@@ -20,6 +20,7 @@ form {
     text-align: center;
     height: 49px;
     margin: 30px 0px;
+    width: 377px;
 }
 
 .fa-location-dot {
@@ -38,10 +39,12 @@ input[type='text'] {
     border: none;
     opacity: 1;
     font-weight: 900;
-    text-align: center;
+    padding-left: 20px;
     font-size: 18px;
     border-top: 1px #F2F2F2 solid;
     border-bottom: 1px #F2F2F2 solid;
+    width: 195px;
+    box-sizing: border-box;
 }
 
 input[type='submit'] {
@@ -90,10 +93,13 @@ input[type='submit'] {
     border: #F2F2F2 solid;
     border-radius: 45px;
     padding: 10px;
+    font-size: 17px;
 }
 
 .filter-menu li i {
+    margin-left: 5px;
     margin-right: 10px;
+    font-size: 22px;
 }
 
 .filter-menu li:hover {
@@ -104,4 +110,5 @@ input[type='submit'] {
     border: #F2F2F2 1px solid;
     border-radius: 50%;
     padding: 5px 10px;
+    font-size: 14px;
 }
