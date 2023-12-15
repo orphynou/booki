@@ -3,7 +3,6 @@
     .filter-menu {
         flex-direction: column;
         align-items: baseline;
-        flex-wrap: wrap;
     }
 
     .filter-menu ul {
@@ -37,14 +36,10 @@
     }
 
     .activites-cards .card {
-        margin-top: 33px;
         height: 270px;
-        box-sizing: border-box;
-        padding: 0px;
     }
 
     .activites-cards img {
         height: 200px;
-        margin: 0px;
     }
 }
